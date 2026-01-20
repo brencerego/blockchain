@@ -10,15 +10,16 @@ contract Balance
         balance = _balance;
         if (balance == 0)
         {
-            result = "go to the streets!!";
+            result = "Your balance is zero!";
         }
         else if (balance < 1000)
         {
-            result = "Ok-ish balance";
+            result = "Midly sufficient balance";
         }
         else if (balance > 1000)
         {
-            result = "You got sme money";
+            result = "You have sufficient balance";
         }
     }
+
 }
