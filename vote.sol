@@ -9,11 +9,12 @@ contract vote
         age = _age;
         if (age >= 18)
         {
-            result = "You are Eligible.";
+            result = "You are eligible to vote.";
         }
         else 
         {
-            result = "You are not eligible.";
+            result = "You are not eligible to vote.";
         }
     }
+
 }
